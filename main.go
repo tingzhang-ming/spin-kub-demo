@@ -23,7 +23,8 @@ func index(w http.ResponseWriter, r *http.Request) {
 func main() {
 	http.HandleFunc("/", index)
 	port := ":8000"
-	fmt.Printf("Hello World\n");
+	fmt.Printf("Hello World-01\n");
+	fmt.Printf("Hello World-02\n");
 	fmt.Printf("Starting to service on port %s\n", port);
 	http.ListenAndServe(port, nil)
 }
